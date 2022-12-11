@@ -6,3 +6,5 @@ def test_0():
     assert fizzbuzz(4) == 4
     assert fizzbuzz(5) == 'Buzz'
     assert fizzbuzz(15) == 'FizzBuzz'
+    assert fizzbuzz(0) == None
+    assert fizzbuzz(-2) == None
